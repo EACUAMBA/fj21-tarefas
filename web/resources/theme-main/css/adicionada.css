@@ -1,0 +1,16 @@
+.success p{
+    text-align: center;
+    color: #000000;
+    display: block;
+    background-color: rgb(40, 255, 115);
+    padding: 5px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+.success p::before{
+    content: "\2714";
+    margin-right: 10px;
+}
+

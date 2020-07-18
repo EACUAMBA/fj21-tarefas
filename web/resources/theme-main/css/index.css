@@ -1,0 +1,91 @@
+/*Page Settings*/
+div#menu header .brand{
+    display: inline-block;
+    width: 19%;
+    text-align: left;
+    position: relative;
+
+}
+div#menu header .brand a{
+    display: inline-block;
+    color: black;
+}
+div#menu header .brand a::before{
+    content: " ";
+    background: transparent url(http://localhost:8080/resources/img/logo.png);
+    display: inline-block;
+    height: 55px;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: -75px;
+    margin-top: -27.5px;
+
+}
+div#menu header ul{
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+}
+
+div#menu header{
+    background-color: #F0F8FF;
+}
+div#menu header ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px 20px;
+    background-color: black;
+}
+div#menu header ul li:hover a, div#menu header ul li:hover{
+    background-color: white;
+    color: black;
+}
+div#menu header ul li a{
+    color: white;
+}
+/*Titulo*/
+div#title section{
+    padding: 20px;
+}
+div#title section, div#title section .row h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+
+/*actions*/
+div#actions section .container p{
+
+}
+
+div#actions section .container > .row:first-child{
+    padding: 20px 0;
+}
+div#actions section .container > .row:first-child, div.row h2.subtitle{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size:30px;
+}
+div#actions .row{
+    background-color: #00FFFF;
+}
+div#actions .row:hover, div#actions .row:hover p a{background-color: black; color: white;}
+div#actions .row p{
+    text-align: center;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+/*Footer*/
+div#footer footer{
+    padding: 20px;
+}
+div#footer footer, div#footer footer .row p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}

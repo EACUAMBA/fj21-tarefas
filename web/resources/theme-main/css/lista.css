@@ -1,0 +1,46 @@
+
+/*Tabela de tarefas*/
+table{
+    border-collapse: collapse;
+}
+div#table{
+    margin: 20px 10px;
+    font-size: 1.0em;
+    text-align: center;
+}
+div#table section table {
+    width: 100%;
+}
+div#table section table thead tr th{
+    background-color: #00aaFF;
+    color: white;
+    padding: 5px;
+    font-size: 1.2em;
+}
+div#table section table tbody{
+    margin-top: 5px;
+}
+
+div#table section table tbody tr:nth-child(even){
+    background-color: #87CEFA;
+}
+div#table section table tbody tr td {
+    padding: 3px 0 3px 5px;
+}
+div#table section table tbody tr div.btn-edit, div#table section table tbody tr div.btn-remove{
+    display: inline-block;
+}
+
+/*Botões da Tabela*/
+div#table section table tbody tr div.btn-edit, div#table section table tbody tr div.btn-remove{
+    display: inline-block;
+    width: 90%;
+    margin: 2px;
+}
+div#table section table tbody tr div.btn-edit{
+    background: #5dea5d;
+
+}
+div#table section table tbody tr div.btn-remove{
+    background: #f70246b8;
+}

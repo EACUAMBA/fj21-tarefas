@@ -1,0 +1,58 @@
+
+/*Formulario*/
+div#form .w100{margin:10px 0;}
+
+div#form div.w100 label{display:block; font-size: 1.7em; margin: 10px;}
+.center{text-align: center;}
+div#form div.w100 textarea{
+    width: 95%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+div#form div.w100 textarea:focus{
+    width: 95%;
+    outline: 2px dashed blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#descricao_erros{
+    color: #fefff6;
+    display: block;
+    background-color: rgb(255, 15, 50);
+    padding: 5px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+#descricao_erros::before{
+    content: "\2718";
+    margin-right: 10px;
+
+}
+
+div#form .center input[type=submit]{
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+div#form .center input[type=submit]:focus{
+    padding: 15px 40px;
+    border: none;
+    outline: 2px dashed blue;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+div#form .center input[type=submit]:hover{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}

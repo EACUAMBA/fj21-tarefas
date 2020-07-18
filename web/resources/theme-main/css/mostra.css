@@ -1,0 +1,74 @@
+.w50{
+    width: 45%;
+    color: black;
+    text-align: center;
+    display: inline-block;
+}
+div#form div.w100 input[type=number]{
+ margin-bottom: 10px;
+  }
+.w100 label [for=id]{
+    margin-top: 30px;
+}
+.w50 label{
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+.w100 label{
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+div#form div.w100 textarea{
+    width: 95%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+div#form div.w100 textarea:focus{
+    width: 95%;
+    outline: 2px dashed blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+div#form div.w100 input[type=date] {
+    width: 50%;
+
+}
+.w100 {
+    text-align: center;
+}
+
+div#form .center input[type=submit]{
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+div#form .center input[type=submit]:focus{
+    padding: 15px 40px;
+    border: none;
+    outline: 2px dashed blue;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+div#form .center input[type=submit]:hover{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+.center{
+    display: block;
+    text-align: center;
+}
+

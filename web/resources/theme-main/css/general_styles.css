@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "iconicFill";
+    src: url("http://localhost:8080/resources/font/iconic_fill.woff")format("woff");
+}
+/*General Settings*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+li{display: inline-block;}
+a{
+    display: inline-block;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.row{width: 100%;}
+body{
+    background-color: #F0F8FF;
+}
